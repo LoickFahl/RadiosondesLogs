@@ -1,0 +1,39 @@
+2023-05-10 19:54:11,129 INFO:Opened new system log file: /home/pi/radiosonde_auto_rx/auto_rx/log/20230510-175411_system.log
+2023-05-10 19:54:11,129 INFO:Reading configuration file...
+2023-05-10 19:54:11,138 WARNING:Config - Clipped Sondehub update rate to lower limit of 10 seconds
+2023-05-10 19:54:11,138 WARNING:Please do not use APRS ports which forward data out to the wider APRS-IS network and cause network congestion. Switching to default port of 14590. If you believe this to be in error, please raise an issue at https://github.com/projecthorus/radiosonde_auto_rx/issues
+2023-05-10 19:54:14,413 INFO:Config - Tested RTLSDR #SDR004 OK
+2023-05-10 19:54:17,720 INFO:Config - Tested RTLSDR #SDR003 OK
+2023-05-10 19:54:17,722 WARNING:Overriding RX timeout for manually specified radiosonde type. Decoders will not automatically stop!
+2023-05-10 19:54:17,724 INFO:Started Flask server on http://0.0.0.0:5000
+2023-05-10 19:54:17,726 INFO:Telemetry Logger - Started Telemetry Logger Thread.
+2023-05-10 19:54:17,728 INFO:OziMux - Started OziMux / Payload Summary Exporter
+2023-05-10 19:54:18,000 INFO:Version - Local Version: 1.6.1 - Up to date!
+2023-05-10 19:54:18,001 INFO:Task Manager - Detected new M10 sonde on 433.002 MHz!
+2023-05-10 19:54:18,001 INFO:Task Manager - SDR #SDR003 has been allocated to Decoder (M10, 433.002 MHz).
+2023-05-10 19:54:21,031 ERROR:The WebSocket transport is not available, you must install a WebSocket server that is compatible with your async mode to enable it. See the documentation for details. (further occurrences of this error will be logged with level INFO)
+2023-05-10 19:54:21,082 INFO:Flask - New Web Client connected!
+2023-05-10 19:54:21,343 INFO:Decoder (RTLSDR SDR003) M10 433.002 - Using fsk_demod decoder chain.
+2023-05-10 19:54:21,344 DEBUG:Decoder (RTLSDR SDR003) M10 433.002 - Demodulator Command: rtl_fm -M raw -F9 -p 0 -d SDR003 -s 48080 -f 433002000 - 2>/dev/null | ./iq_dec --bo 16 - 48080 16 2>/dev/null |./fsk_demod --cs16 -b -10000 -u 10000 -s -p 5 --stats=5 2 48080 9616 - -
+2023-05-10 19:54:21,345 INFO:Task Manager - SDR #SDR004 has been allocated to Scanner.
+2023-05-10 19:54:21,346 DEBUG:Decoder (RTLSDR SDR003) M10 433.002 - Decoder Command: ./m10mod --json --ptu -vvv --softin -i  2>/dev/null
+2023-05-10 19:54:21,387 INFO:Decoder (RTLSDR SDR003) M10 433.002 - Starting decoder subprocess.
+2023-05-10 19:54:24,731 INFO:Scanner (RTLSDR SDR004) - Starting Scanner Thread
+2023-05-10 19:54:24,734 INFO:Scanner (RTLSDR SDR004) - Scanning only frequencies (MHz): [433.002]
+2023-05-10 19:54:24,735 DEBUG:Scanner (RTLSDR SDR004) - Using detection command: timeout 10 rtl_fm -M raw -F9 -T -p 0 -d SDR004 -s 48000 -f 433002000 - 2>/dev/null | ./dft_detect -t 5 --iq --bw 20 --dc - 48000 16 2>/dev/null
+2023-05-10 19:54:24,736 DEBUG:Scanner (RTLSDR SDR004)- Attempting sonde detection on 433.002 MHz
+2023-05-10 19:54:32,923 DEBUG:Scanner - dft_detect exited in 8.2 seconds with return code 1.
+2023-05-10 19:54:32,924 DEBUG:Scanner (RTLSDR SDR004) - No sondes detected.
+2023-05-10 19:54:52,945 INFO:Scanner (RTLSDR SDR004) - Scanning only frequencies (MHz): [433.002]
+2023-05-10 19:54:52,947 DEBUG:Scanner (RTLSDR SDR004) - Using detection command: timeout 10 rtl_fm -M raw -F9 -T -p 0 -d SDR004 -s 48000 -f 433002000 - 2>/dev/null | ./dft_detect -t 5 --iq --bw 20 --dc - 48000 16 2>/dev/null
+2023-05-10 19:54:52,947 DEBUG:Scanner (RTLSDR SDR004)- Attempting sonde detection on 433.002 MHz
+2023-05-10 19:54:57,400 INFO:Web - Flask Server Shutdown.
+2023-05-10 19:54:57,402 INFO:Starting shutdown of all threads.
+2023-05-10 19:54:58,432 INFO:Decoder (RTLSDR SDR003) M10 433.002 - Closed decoder subprocess.
+2023-05-10 19:54:58,433 INFO:Scanner (RTLSDR SDR004) - Waiting for current scan to finish...
+2023-05-10 19:54:58,520 DEBUG:Scanner (RTLSDR SDR004) - dft_detect exited in 5.6 seconds with return code -2.
+2023-05-10 19:54:58,521 DEBUG:Scanner (RTLSDR SDR004) - No sondes detected.
+2023-05-10 19:55:18,536 INFO:Scanner (RTLSDR SDR004) - Scanner Thread Closed.
+2023-05-10 19:55:18,537 DEBUG:OziMux - Waiting for processing thread to close...
+2023-05-10 19:55:18,803 INFO:Telemetry Logger - Stopped Telemetry Logger Thread.
+2023-05-10 19:55:19,786 DEBUG:WebExporter - Closed Processing thread.

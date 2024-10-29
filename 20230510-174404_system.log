@@ -1,0 +1,110 @@
+2023-05-10 19:44:04,260 INFO:Opened new system log file: /home/pi/radiosonde_auto_rx/auto_rx/log/20230510-174404_system.log
+2023-05-10 19:44:04,261 INFO:Reading configuration file...
+2023-05-10 19:44:04,269 WARNING:Config - Clipped Sondehub update rate to lower limit of 10 seconds
+2023-05-10 19:44:04,270 WARNING:Please do not use APRS ports which forward data out to the wider APRS-IS network and cause network congestion. Switching to default port of 14590. If you believe this to be in error, please raise an issue at https://github.com/projecthorus/radiosonde_auto_rx/issues
+2023-05-10 19:44:04,937 INFO:RTLSDR - Attempting to reset: /dev/bus/usb/001/005
+2023-05-10 19:44:10,536 INFO:Config - Tested RTLSDR #SDR004 OK
+2023-05-10 19:44:13,830 INFO:Config - Tested RTLSDR #SDR003 OK
+2023-05-10 19:44:13,832 WARNING:Overriding RX timeout for manually specified radiosonde type. Decoders will not automatically stop!
+2023-05-10 19:44:13,834 INFO:Started Flask server on http://0.0.0.0:5000
+2023-05-10 19:44:13,837 INFO:Telemetry Logger - Started Telemetry Logger Thread.
+2023-05-10 19:44:13,838 INFO:OziMux - Started OziMux / Payload Summary Exporter
+2023-05-10 19:44:14,366 INFO:Version - Local Version: 1.6.1 - Up to date!
+2023-05-10 19:44:14,366 INFO:Task Manager - Detected new M10 sonde on 433.000 MHz!
+2023-05-10 19:44:14,367 INFO:Task Manager - SDR #SDR003 has been allocated to Decoder (M10, 433.000 MHz).
+2023-05-10 19:44:17,697 INFO:Decoder (RTLSDR SDR003) M10 433.000 - Using fsk_demod decoder chain.
+2023-05-10 19:44:17,700 DEBUG:Decoder (RTLSDR SDR003) M10 433.000 - Demodulator Command: rtl_fm -M raw -F9 -p 0 -d SDR003 -s 48080 -f 433000000 - 2>/dev/null | ./iq_dec --bo 16 - 48080 16 2>/dev/null |./fsk_demod --cs16 -b -10000 -u 10000 -s -p 5 --stats=5 2 48080 9616 - -
+2023-05-10 19:44:17,700 INFO:Task Manager - SDR #SDR004 has been allocated to Scanner.
+2023-05-10 19:44:17,701 DEBUG:Decoder (RTLSDR SDR003) M10 433.000 - Decoder Command: ./m10mod --json --ptu -vvv --softin -i  2>/dev/null
+2023-05-10 19:44:17,736 INFO:Decoder (RTLSDR SDR003) M10 433.000 - Starting decoder subprocess.
+2023-05-10 19:44:18,142 ERROR:The WebSocket transport is not available, you must install a WebSocket server that is compatible with your async mode to enable it. See the documentation for details. (further occurrences of this error will be logged with level INFO)
+2023-05-10 19:44:18,202 INFO:Flask - New Web Client connected!
+2023-05-10 19:44:21,288 INFO:Scanner (RTLSDR SDR004) - Starting Scanner Thread
+2023-05-10 19:44:21,291 INFO:Scanner (RTLSDR SDR004) - Scanning only frequencies (MHz): [433.]
+2023-05-10 19:44:21,292 DEBUG:Scanner (RTLSDR SDR004) - Using detection command: timeout 10 rtl_fm -M raw -F9 -T -p 0 -d SDR004 -s 48000 -f 433000000 - 2>/dev/null | ./dft_detect -t 5 --iq --bw 20 --dc - 48000 16 2>/dev/null
+2023-05-10 19:44:21,292 DEBUG:Scanner (RTLSDR SDR004)- Attempting sonde detection on 433.000 MHz
+2023-05-10 19:44:29,677 DEBUG:Scanner - dft_detect exited in 8.4 seconds with return code 1.
+2023-05-10 19:44:29,679 DEBUG:Scanner (RTLSDR SDR004) - No sondes detected.
+2023-05-10 19:44:49,703 INFO:Scanner (RTLSDR SDR004) - Scanning only frequencies (MHz): [433.]
+2023-05-10 19:44:49,704 DEBUG:Scanner (RTLSDR SDR004) - Using detection command: timeout 10 rtl_fm -M raw -F9 -T -p 0 -d SDR004 -s 48000 -f 433000000 - 2>/dev/null | ./dft_detect -t 5 --iq --bw 20 --dc - 48000 16 2>/dev/null
+2023-05-10 19:44:49,705 DEBUG:Scanner (RTLSDR SDR004)- Attempting sonde detection on 433.000 MHz
+2023-05-10 19:44:54,840 DEBUG:Scanner - dft_detect exited in 5.1 seconds with return code 1.
+2023-05-10 19:44:54,841 DEBUG:Scanner (RTLSDR SDR004) - Detected a M20 Sonde! (Score: -0.88, Offset: 1902.7 Hz)
+2023-05-10 19:44:54,844 DEBUG:Scanner (RTLSDR SDR004) - Scan Detected Sondes: [[433002000.0, 'M20']]
+2023-05-10 19:44:55,321 INFO:Task Manager - Detected new M20 sonde on 433.002 MHz!
+2023-05-10 19:44:55,322 INFO:Halting Scanner to decode detected radiosonde.
+2023-05-10 19:44:55,323 INFO:Scanner (RTLSDR SDR004) - Waiting for current scan to finish...
+2023-05-10 19:45:00,338 INFO:Flask - New Web Client connected!
+2023-05-10 19:45:14,864 INFO:Scanner (RTLSDR SDR004) - Scanner Thread Closed.
+2023-05-10 19:45:14,865 INFO:Task Manager - SDR #SDR004 has been allocated to Decoder (M20, 433.002 MHz).
+2023-05-10 19:45:18,340 INFO:Decoder (RTLSDR SDR004) M20 433.002 - Using fsk_demod decoder chain.
+2023-05-10 19:45:18,342 DEBUG:Decoder (RTLSDR SDR004) M20 433.002 - Demodulator Command: rtl_fm -M raw -F9 -T -p 0 -d SDR004 -s 48000 -f 433002000 - 2>/dev/null | ./iq_dec --bo 16 - 48000 16 2>/dev/null |./fsk_demod --cs16 -b -10000 -u 10000 -s -p 5 --stats=5 2 48000 9600 - -
+2023-05-10 19:45:18,344 DEBUG:Decoder (RTLSDR SDR004) M20 433.002 - Decoder Command: ./m20mod --json --ptu -vvv --softin -i  2>/dev/null
+2023-05-10 19:45:18,377 INFO:Decoder (RTLSDR SDR004) M20 433.002 - Starting decoder subprocess.
+2023-05-10 19:46:22,680 DEBUG:Delta time: 49133
+2023-05-10 19:46:22,681 WARNING:Sonde reported time too far from current UTC time. Either sonde time or system time is invalid. (Threshold: 3 hours)
+2023-05-10 19:47:12,734 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:13,538 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:14,543 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:15,547 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:18,561 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:19,566 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:20,572 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:21,577 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:22,481 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:23,487 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:24,591 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:25,799 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:26,811 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:27,815 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:28,820 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:29,724 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:30,630 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:31,635 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:32,639 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:33,643 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:34,648 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:35,652 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:36,655 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:37,659 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:38,663 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:39,668 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:40,572 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:41,675 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:42,678 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:43,582 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:44,587 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:45,593 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:46,698 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:47,602 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:48,607 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:49,612 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:50,617 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:51,621 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:52,627 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:53,630 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:54,635 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:57,645 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:58,649 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:47:59,653 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:04,568 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:05,572 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:08,581 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:09,585 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:10,590 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:11,695 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:13,606 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:14,510 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:15,614 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:16,618 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:17,622 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:18,626 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:19,632 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 109088 m.
+2023-05-10 19:48:22,623 INFO:Web - Flask Server Shutdown.
+2023-05-10 19:48:22,624 INFO:Starting shutdown of all threads.
+2023-05-10 19:48:23,548 WARNING:Sonde M20-202-2-03182 position breached altitude cap by 29544 m.
+2023-05-10 19:48:23,718 INFO:Decoder (RTLSDR SDR003) M10 433.000 - Closed decoder subprocess.
+2023-05-10 19:48:24,750 INFO:Decoder (RTLSDR SDR004) M20 433.002 - Closed decoder subprocess.
+2023-05-10 19:48:24,752 DEBUG:OziMux - Waiting for processing thread to close...
+2023-05-10 19:48:25,130 INFO:Telemetry Logger - Stopped Telemetry Logger Thread.
+2023-05-10 19:48:26,102 DEBUG:WebExporter - Closed Processing thread.
