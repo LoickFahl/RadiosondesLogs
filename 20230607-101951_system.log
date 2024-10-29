@@ -1,0 +1,144 @@
+2023-06-07 12:19:51,792 INFO:Opened new system log file: /home/pi/dev_auto_rx/radiosonde_auto_rx/auto_rx/log/20230607-101951_system.log
+2023-06-07 12:19:51,792 INFO:Reading configuration file...
+2023-06-07 12:19:51,801 WARNING:Config - Clipped Sondehub update rate to lower limit of 10 seconds
+2023-06-07 12:19:51,801 WARNING:Please do not use APRS ports which forward data out to the wider APRS-IS network and cause network congestion. Switching to default port of 14590. If you believe this to be in error, please raise an issue at https://github.com/projecthorus/radiosonde_auto_rx/issues
+2023-06-07 12:19:52,316 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:52,318 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:52,318 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:52,319 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:52,321 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0263 lowspeed L1 enable connect"
+2023-06-07 12:19:52,321 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:52,321 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:52,322 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:52,324 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:19:52,324 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0263 5Gbps power suspend enable connect"
+2023-06-07 12:19:52,324 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:19:52,325 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:19:52,332 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:52,333 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0100 power"
+2023-06-07 12:19:52,333 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:52,333 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0100 power"
+2023-06-07 12:19:52,336 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:52,336 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:52,336 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0100 power"
+2023-06-07 12:19:52,337 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:52,339 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0100 power"
+2023-06-07 12:19:52,339 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:52,339 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0100 power"
+2023-06-07 12:19:52,340 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0100 power"
+2023-06-07 12:19:52,342 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:55,668 INFO:Config - Tested RTLSDR #SDR004 OK
+2023-06-07 12:19:56,137 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:56,138 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:56,138 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:56,139 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:56,141 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0263 lowspeed L1 enable connect"
+2023-06-07 12:19:56,141 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:56,142 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:56,142 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 lowspeed L1"
+2023-06-07 12:19:56,144 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:19:56,144 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0263 5Gbps power suspend enable connect"
+2023-06-07 12:19:56,144 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:19:56,145 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:19:56,152 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:56,153 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0100 power"
+2023-06-07 12:19:56,153 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:56,153 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0100 power"
+2023-06-07 12:19:56,156 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:56,156 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:56,156 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0100 power"
+2023-06-07 12:19:56,157 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:56,159 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0100 power"
+2023-06-07 12:19:56,159 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:56,159 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0100 power"
+2023-06-07 12:19:56,159 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0100 power"
+2023-06-07 12:19:56,161 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:19:59,313 INFO:Config - Tested RTLSDR #SDR003 OK
+2023-06-07 12:19:59,315 WARNING:Overriding RX timeout for manually specified radiosonde type. Decoders will not automatically stop!
+2023-06-07 12:19:59,317 INFO:Started Flask server on http://0.0.0.0:5000
+2023-06-07 12:19:59,319 INFO:Telemetry Logger - Started Telemetry Logger Thread.
+2023-06-07 12:19:59,406 DEBUG:APRS-IS - Logging in: user FoxTeam pass 26040 vers VK5QI-AutoRX
+
+2023-06-07 12:19:59,407 DEBUG:APRS-IS - Setting Filter: #filter p/ZZ
+
+2023-06-07 12:19:59,407 DEBUG:APRS-IS - Setting Filter: #filter -t/po
+
+2023-06-07 12:20:00,409 DEBUG:APRS-IS - Server Logon Response: # aprsc 2.1.8-gf8824e8
+# logresp FoxTeam verified, server SQ6KXY-1
+# filter p/ZZ active
+# filter -t/po active
+2023-06-07 12:20:00,409 INFO:APRS-IS - Connected to APRS-IS server radiosondy.info:14590
+2023-06-07 12:20:00,410 DEBUG:APRS-IS - Started APRS Uploader Thread.
+2023-06-07 12:20:00,412 INFO:APRS-IS - Uploaded to APRS-IS: FoxTeam>APRARX,SONDEGATE,TCPIP,qAR,FoxTeam:!4330.00N/00524.00E-radiosonde_auto_rx SondeGate v1.6.2-beta3 !w!!!
+2023-06-07 12:20:00,412 INFO:APRS-IS - APRS Uploader Started.
+2023-06-07 12:20:00,415 INFO:OziMux - Started OziMux / Payload Summary Exporter
+2023-06-07 12:20:00,416 INFO:Sondehub Uploader - Started Sondehub Uploader Thread.
+2023-06-07 12:20:00,786 INFO:Version - Local Version: 1.6.2-beta3 - Up to date!
+2023-06-07 12:20:00,787 INFO:Task Manager - Detected new M10 sonde on 403.200 MHz!
+2023-06-07 12:20:00,787 INFO:Task Manager - SDR #SDR003 has been allocated to Decoder (M10, 403.200 MHz).
+2023-06-07 12:20:00,998 INFO:Sondehub Uploader - Uploaded station information to Sondehub.
+2023-06-07 12:20:01,300 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:01,309 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:01,310 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:01,311 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:01,314 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0263 lowspeed L1 enable connect"
+2023-06-07 12:20:01,315 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:01,316 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:01,317 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:01,320 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:20:01,320 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0263 5Gbps power suspend enable connect"
+2023-06-07 12:20:01,321 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:20:01,322 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:20:01,331 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:01,331 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0100 power"
+2023-06-07 12:20:01,332 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:01,332 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0100 power"
+2023-06-07 12:20:01,335 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:01,335 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:01,336 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0100 power"
+2023-06-07 12:20:01,336 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:01,339 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0100 power"
+2023-06-07 12:20:01,339 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:01,340 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0100 power"
+2023-06-07 12:20:01,340 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0100 power"
+2023-06-07 12:20:01,343 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:04,521 INFO:Decoder (RTLSDR SDR003) M10 403.200 - Using fsk_demod decoder chain.
+2023-06-07 12:20:04,523 DEBUG:Decoder (RTLSDR SDR003) M10 403.200 - Demodulator Command: rtl_fm -M raw -F9 -p 0 -d SDR003 -s 48080 -f 403200000 - 2>/dev/null | ./iq_dec --bo 16 - 48080 16 2>/dev/null |./fsk_demod --cs16 -b -10000 -u 10000 -s -p 5 --stats=5 2 48080 9616 - -
+2023-06-07 12:20:04,524 INFO:Task Manager - SDR #SDR004 has been allocated to Scanner.
+2023-06-07 12:20:04,526 DEBUG:Decoder (RTLSDR SDR003) M10 403.200 - Decoder Command: ./m10mod --json --ptu -vvv --softin -i  2>/dev/null
+2023-06-07 12:20:04,586 INFO:Decoder (RTLSDR SDR003) M10 403.200 - Starting decoder subprocess.
+2023-06-07 12:20:05,079 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:05,080 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:05,080 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:05,080 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:05,082 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0263 lowspeed L1 enable connect"
+2023-06-07 12:20:05,083 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:05,083 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:05,084 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 lowspeed L1"
+2023-06-07 12:20:05,086 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:20:05,086 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0263 5Gbps power suspend enable connect"
+2023-06-07 12:20:05,086 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:20:05,087 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.02a0 5Gbps power Rx.Detect"
+2023-06-07 12:20:05,094 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:05,094 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0100 power"
+2023-06-07 12:20:05,095 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:05,095 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0100 power"
+2023-06-07 12:20:05,098 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:05,098 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:05,098 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0100 power"
+2023-06-07 12:20:05,099 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:05,101 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0100 power"
+2023-06-07 12:20:05,101 DEBUG:lsusb parsing error: unexpected indentation: "   Port 2: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:05,102 DEBUG:lsusb parsing error: unexpected indentation: "   Port 3: 0000.0100 power"
+2023-06-07 12:20:05,102 DEBUG:lsusb parsing error: unexpected indentation: "   Port 4: 0000.0100 power"
+2023-06-07 12:20:05,104 DEBUG:lsusb parsing error: unexpected indentation: "   Port 1: 0000.0503 highspeed power enable connect"
+2023-06-07 12:20:08,451 INFO:Scanner (RTLSDR SDR004) - Starting Scanner Thread
+2023-06-07 12:20:08,453 INFO:Scanner (RTLSDR SDR004) - Scanning only frequencies (MHz): [403.2]
+2023-06-07 12:20:08,454 DEBUG:Scanner - Narrowing detection IF BW to avoid RTLSDR spur.
+2023-06-07 12:20:08,454 DEBUG:Scanner (RTLSDR SDR004) - Using detection command: timeout 10 rtl_fm -M raw -F9 -T -p 0 -d SDR004 -s 48000 -f 403200000 - 2>/dev/null | ./dft_detect -t 5 --iq --bw 15 --dc - 48000 16 2>/dev/null
+2023-06-07 12:20:08,455 DEBUG:Scanner (RTLSDR SDR004)- Attempting sonde detection on 403.200 MHz
+2023-06-07 12:20:16,867 DEBUG:Scanner - dft_detect exited in 8.4 seconds with return code 1.
+2023-06-07 12:20:16,868 DEBUG:Scanner (RTLSDR SDR004) - No sondes detected.
+2023-06-07 12:20:27,464 INFO:Web - Flask Server Shutdown.
+2023-06-07 12:20:27,465 INFO:Starting shutdown of all threads.
+2023-06-07 12:20:28,560 INFO:Decoder (RTLSDR SDR003) M10 403.200 - Closed decoder subprocess.
