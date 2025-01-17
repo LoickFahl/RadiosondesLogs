@@ -1,0 +1,2 @@
+timestamp,serial,frame,lat,lon,alt,vel_v,vel_h,heading,temp,humidity,pressure,type,freq_mhz,snr,f_error_hz,sats,batt_v,burst_timer,aux_data
+2025-01-17T00:24:53.000Z,M20-406-2-00760,1421108693,43.82896,3.78400,21638.9,3.2,21.1,163.3,-61.3,-1.0,41.5,0x20,405.003,10.1,750,-1,1.8,-1,-1
