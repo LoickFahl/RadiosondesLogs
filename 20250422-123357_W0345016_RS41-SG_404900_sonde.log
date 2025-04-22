@@ -1,0 +1,2 @@
+timestamp,serial,frame,lat,lon,alt,vel_v,vel_h,heading,temp,humidity,pressure,type,freq_mhz,snr,f_error_hz,sats,batt_v,burst_timer,aux_data
+2025-04-22T12:34:13.004Z,W0345016,7123,45.66296,8.89254,29286.8,6.0,3.2,358.9,-273.0,-1.0,-1.0,RS41-SG,404.900,8.0,150,10,2.7,-1,-1
