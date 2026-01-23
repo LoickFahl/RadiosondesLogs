@@ -1,2 +1,0 @@
-timestamp,serial,frame,lat,lon,alt,vel_v,vel_h,heading,temp,humidity,pressure,type,freq_mhz,snr,f_error_hz,sats,batt_v,burst_timer,aux_data
-2024-12-17T14:44:59.060Z,L2413445,4231,43.31762,7.02404,12906.2,3.7,21.2,132.7,-273.0,-1.0,-1.0,RS92-SGP,404.500,6.4,-187,-1,-1.0,-1,-1

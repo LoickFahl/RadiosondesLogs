@@ -1,2 +1,0 @@
-timestamp,serial,frame,lat,lon,alt,vel_v,vel_h,heading,temp,humidity,pressure,type,freq_mhz,snr,f_error_hz,sats,batt_v,burst_timer,aux_data
-2024-07-24T12:57:07.000Z,V2910888,8498,45.07784,9.10119,33468.4,4.4,20.5,269.6,-273.0,-1.0,-1.0,RS41,404.900,7.8,0,10,2.6,-1,-1

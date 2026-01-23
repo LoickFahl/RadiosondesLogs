@@ -1,2 +1,0 @@
-timestamp,serial,frame,lat,lon,alt,vel_v,vel_h,heading,temp,humidity,pressure,type,freq_mhz,snr,f_error_hz,sats,batt_v,burst_timer,aux_data
-2025-01-12T12:42:24.000Z,W2020591,7705,44.92408,8.76999,26393.9,3.9,23.9,104.6,-273.0,-1.0,-1.0,RS41,404.900,9.0,-225,9,2.6,-1,-1

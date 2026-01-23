@@ -1,2 +1,0 @@
-timestamp,serial,frame,lat,lon,alt,vel_v,vel_h,heading,temp,humidity,pressure,type,freq_mhz,snr,f_error_hz,sats,batt_v,burst_timer,aux_data
-2023-05-03T09:48:14.000Z,M10-211-2-11487,1367142512,43.72871,5.69897,8520.9,4.4,23.5,185.4,-37.7,21.0,-1.0,0x9F,403.200,0.8,-3756,12,5.9,-1,-1
