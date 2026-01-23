@@ -1,0 +1,2 @@
+timestamp,serial,frame,lat,lon,alt,vel_v,vel_h,heading,temp,humidity,pressure,type,freq_mhz,snr,f_error_hz,sats,batt_v,burst_timer,aux_data
+2026-01-23T12:44:25.999Z,W4215468,8604,46.94453,7.61203,31701.2,4.3,25.8,105.1,-273.0,-1.0,-1.0,RS41,404.500,7.5,250,8,2.5,-1,0501823D002110000000
