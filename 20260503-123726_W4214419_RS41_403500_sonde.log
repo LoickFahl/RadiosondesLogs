@@ -1,3 +1,0 @@
-timestamp,serial,frame,lat,lon,alt,vel_v,vel_h,heading,temp,humidity,pressure,type,freq_mhz,snr,f_error_hz,sats,batt_v,burst_timer,aux_data
-2026-05-03T12:37:42.001Z,W4214419,7429,46.98908,7.33055,31329.2,4.0,9.3,169.5,-273.0,-1.0,-1.0,RS41,403.500,6.5,250,9,2.7,,
-2026-05-03T12:38:02.001Z,W4214419,7449,46.98815,7.32983,31455.0,6.9,8.8,253.7,-273.0,-1.0,-1.0,RS41,403.500,6.4,250,9,2.6,,
