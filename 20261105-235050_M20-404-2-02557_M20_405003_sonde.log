@@ -1,0 +1,2 @@
+timestamp,serial,frame,lat,lon,alt,vel_v,vel_h,heading,temp,humidity,pressure,type,freq_mhz,snr,f_error_hz,sats,batt_v,burst_timer,aux_data
+2026-11-05T23:51:07.000Z,M20-404-2-02557,1477957867,43.88546,4.41024,3036.5,-0.5,16.3,13.4,-3.7,95.5,709.8,0x20,405.003,2.7,-375,-1,2.7,,
